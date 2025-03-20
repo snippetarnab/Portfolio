@@ -130,7 +130,7 @@ const Portfolio = () => {
               A realtime communication platform using WebSockets.
             </p>
             <a
-              href="https://talks-4qs8.onrender.com"
+              href="https://www.talks.itsarnab.site"
               className="mt-2 inline-flex items-center text-blue-400 hover:text-blue-300"
             >
               <FaGlobe className="mr-2" />
@@ -145,7 +145,7 @@ const Portfolio = () => {
               A blog for pet lovers and who help them to find their pets.
             </p>
             <a
-              href="https://pets-blog-ten.vercel.app"
+              href="https://pets-blog.itsarnab.site"
               className="mt-2 inline-flex items-center text-blue-400 hover:text-blue-300"
             >
               <FaGlobe className="mr-2" />
@@ -176,7 +176,7 @@ const Portfolio = () => {
           <FaLinkedin />
         </a>
         <a
-          href="https://twitter.com/yourprofile"
+          href="https://x.com/imArnabParua?s=08"
           className="text-white text-xl hover:text-gray-400"
         >
           <FaXTwitter />

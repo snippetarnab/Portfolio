@@ -1,12 +1,11 @@
 import {
   FaHome,
-  FaCode,
   FaGithub,
   FaLinkedin,
   FaYoutube,
   FaGlobe,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaDiscord, FaXTwitter } from "react-icons/fa6";
 const Portfolio = () => {
   return (
     <div className="bg-black text-white min-h-screen p-8 font-sans relative">
@@ -50,18 +49,6 @@ const Portfolio = () => {
               <h3 className="font-medium">Unified mentor</h3>
               <p className="text-gray-400">Internship (Feb 2025 - Present)</p>
             </div>
-            {/* <div>
-              <h3 className="font-medium">PearAi</h3>
-              <p className="text-gray-400">
-                OSS Contributor (Oct 2024 - Dec 2024)
-              </p>
-            </div>
-            <div>
-              <h3 className="font-medium">J-WIRES</h3>
-              <p className="text-gray-400">
-                Frontend Intern (Jan 2024 - Apr 2024)
-              </p>
-            </div> */}
           </div>
         </section>
         {/* Education */}
@@ -83,11 +70,11 @@ const Portfolio = () => {
             {[
               "HTML",
               "CSS",
-              "React",
-              "Next.js",
               "JavaScript",
+              "React",
               "Node.js",
               "Express",
+              "Next.js",
               "MongoDB",
               "PostgreSQL",
               "MySQL",
@@ -160,8 +147,11 @@ const Portfolio = () => {
         <a href="#home" className="text-white text-xl hover:text-gray-400">
           <FaHome />
         </a>
-        <a href="#projects" className="text-white text-xl hover:text-gray-400">
-          <FaCode />
+        <a
+          href="https://discord.com/users/snippetarnab"
+          className="text-white text-xl hover:text-gray-400"
+        >
+          <FaDiscord />
         </a>
         <a
           href="https://github.com/snippetarnab"
@@ -187,9 +177,6 @@ const Portfolio = () => {
         >
           <FaYoutube />
         </a>
-        {/* <button className="text-white text-xl hover:text-gray-400">
-          <FaMoon />
-        </button> */}
       </div>
 
       {/* Footer */}

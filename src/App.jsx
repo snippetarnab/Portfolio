@@ -1,9 +1,9 @@
 import {
-  FaHome,
   FaGithub,
   FaLinkedin,
   FaYoutube,
   FaGlobe,
+  FaInstagram,
 } from "react-icons/fa";
 import { FaDiscord, FaXTwitter } from "react-icons/fa6";
 const Portfolio = () => {
@@ -27,6 +27,7 @@ const Portfolio = () => {
           />
         </header>
 
+        {/* ABOUT SECTION */}
         <section className="mt-8">
           <h2 className="text-xl font-semibold">About</h2>
           <p className="text-gray-400 mt-2 text-pretty">
@@ -38,19 +39,12 @@ const Portfolio = () => {
             <span className="text-blue-400">realworld projects</span>. Some of
             my projects include
             <span className="text-blue-400"> Talks</span>,{" "}
-            <span className="text-blue-400">Pets Blog</span>.
+            <span className="text-blue-400">Pets Blog</span>.{" "}
+            <span className="text-blue-400">AI Notes</span>.
           </p>
         </section>
         {/* Work Experience */}
-        <section className="mt-8">
-          <h2 className="text-xl font-semibold">Work Experience</h2>
-          <div className="mt-4 space-y-4">
-            <div>
-              <h3 className="font-medium">Unified mentor</h3>
-              <p className="text-gray-400">Internship (Feb 2025 - Present)</p>
-            </div>
-          </div>
-        </section>
+
         {/* Education */}
         <section className="mt-8">
           <h2 className="text-xl font-semibold">Education</h2>
@@ -70,6 +64,7 @@ const Portfolio = () => {
             {[
               "HTML",
               "CSS",
+              "Tailwind",
               "JavaScript",
               "React",
               "Node.js",
@@ -79,9 +74,8 @@ const Portfolio = () => {
               "PostgreSQL",
               "MySQL",
               "Docker",
-              "Kubernetes",
               "Java",
-              "Python",
+              "c",
               "AWS",
             ].map((skill) => (
               <span
@@ -139,13 +133,31 @@ const Portfolio = () => {
               Website
             </a>
           </div>
+          <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
+            <img src="ai-notes.png" alt="Type Arena" className="rounded-lg" />
+            <h3 className="text-xl font-bold mt-2">AI Notes</h3>
+            <p className="text-gray-400">feb 2025 - Mar 2025</p>
+            <p className="text-gray-300 mt-2">
+              A note-taking application with AI features.
+            </p>
+            <a
+              href="https://notes-black-six.vercel.app"
+              className="mt-2 inline-flex items-center text-blue-400 hover:text-blue-300"
+            >
+              <FaGlobe className="mr-2" />
+              Website
+            </a>
+          </div>
         </div>
       </div>
       {/* Contact section */}
 
       <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-gray-900 px-6 py-3 rounded-full flex gap-4 items-center shadow-lg">
-        <a href="#home" className="text-white text-xl hover:text-gray-400">
-          <FaHome />
+        <a
+          href="https://www.instagram.com/_i.arnab_?igsh=Nm1kNHcxdnFxOTV2"
+          className="text-white text-xl hover:text-gray-400"
+        >
+          <FaInstagram />
         </a>
         <a
           href="https://discord.com/users/snippetarnab"

@@ -39,7 +39,7 @@ const Portfolio = () => {
             <span className="text-blue-400">realworld projects</span>. Some of
             my projects include
             <span className="text-blue-400"> Talks</span>,{" "}
-            <span className="text-blue-400">Pets Blog</span>.{" "}
+            <span className="text-blue-400">Pets Blog</span>,{" "}
             <span className="text-blue-400">AI Notes</span>.
           </p>
         </section>
@@ -141,7 +141,7 @@ const Portfolio = () => {
               A note-taking application with AI features.
             </p>
             <a
-              href="https://notes-black-six.vercel.app"
+              href="https://ainotes.itsarnab.site"
               className="mt-2 inline-flex items-center text-blue-400 hover:text-blue-300"
             >
               <FaGlobe className="mr-2" />

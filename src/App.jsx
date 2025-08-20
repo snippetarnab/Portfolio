@@ -52,7 +52,7 @@ const Portfolio = () => {
             <div>
               <h3 className="font-medium">Global Group of Institutions</h3>
               <p className="text-gray-400">
-                Bachelor in Computer Applications (2022 - 2025)
+                Bachelor in Computer Application (2022 - 2025)
               </p>
             </div>
           </div>

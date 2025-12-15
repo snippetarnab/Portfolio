@@ -31,7 +31,7 @@ const Portfolio = () => {
         <section className="mt-8">
           <h2 className="text-xl font-semibold">About</h2>
           <p className="text-gray-400 mt-2 text-pretty">
-            I&apos;m Arnab Parua. I&apos;m done my Bachelor&apos;s Degree in Computer Application. I build and
+            I&apos;m Arnab Parua. I&apos;ve done my Bachelor&apos;s Degree in Computer Application. I build and
             maintain
             <span className="text-blue-400"> web applications</span>,{" "}
             <span className="text-blue-400">SaaS platforms</span>, and {""}
